@@ -1,0 +1,95 @@
+@charset "gb2312";
+/* CSS Document */
+html{margin:0;padding:0;border:0;}
+body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,nav,section,button{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}
+body{line-height:1.5;}
+table{border-collapse:separate;border-spacing:0;}
+cite{font-style:normal;}
+caption,th,td{text-align:left;font-weight:normal;float:none !important;}
+table,th,td{vertical-align:middle;}
+table,td,tr,th,input{font-size:12px;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';}
+blockquote,q{quotes:"" "";}
+a img{border:none;}
+:focus{outline:0;}
+a{star:expression(this.onFocus=this.blur());}
+table{border-collapse:0;border-spacing:0;jerry:expression(cellSpacing="0");}
+html{font-size:1px;width:100%;}
+body{font-size:75%;color:#333;background:#fff;font-family:"\5b8b\4f53",Arial,Helvetica,sans-serif;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;color:#000;}
+h1{font-size:3em;line-height:1;margin-bottom:0.5em;}
+h2{font-size:2em;margin-bottom:0.75em;}
+h3{font-size:1.5em;line-height:1;margin-bottom:1em;}
+h4{font-size:1.2em;margin-bottom:1.2em;}
+h5{font-size:1em;font-weight:bold;}
+h6{font-size:1em;font-weight:bold;}
+h1 img,h2 img,h3 img,h4 img,h5 img,h6 img{margin:0;}
+.left{float:left !important;}
+p .left{margin:1.5em 1.5em 1.5em 0;padding:0;}
+.right{float:right !important;}
+p .right{margin:1.5em 0 1.5em 1.5em;padding:0;}
+a{color:#039;text-decoration:none;}
+blockquote{margin:1.5em;color:#666;font-style:italic;}
+strong,dfn{font-weight:bold;}
+.strong{font-weight:bold;}
+em,dfn,i{font-style:normal;}
+s,i{text-decoration:none;}
+sup,sub{line-height:0;}
+abbr,acronym{border-bottom:1px dotted #666;}
+address{margin:0 0 1.5em;font-style:italic;}
+del{color:#666;}
+pre{margin:1.5em 0;white-space:pre;}
+pre,code,tt{font:1em 'andale mono','lucida console',monospace;line-height:1.5;}
+img,input,select,button{vertical-align:middle;}
+li ul,li ol{margin:0;}
+ul{list-style-type:none;}
+ol{list-style-type:none;}
+dl dt{font-weight:normal;}
+input.title{font-size:1.5em;}
+form.inline{line-height:3;}
+form.inline p{margin-bottom:0;}
+button{border:0;cursor:pointer;}
+label{cursor:pointer;}
+label input{margin:-4px 3px 0 0;vertical-align:middle;}
+textarea{resize:none;}
+.hide{display:none;}
+.clear{clear:both;}
+.relat{position:relative;}
+.disinbck{display:inline-block;}
+select{font-size:12px;}
+.redtxt{color:#f00;}
+.orgtxt{color:#fe6019;}
+.ind-top{background:#e83336;height:80px;font-size:12px;color:#fff;border-bottom:1px solid #e9494c;}
+.header{width:1190px;margin:0 auto;}
+.header ul{float:right;margin:30px 0 0 0;}
+.header ul li{float:left;}
+.header ul li.user{margin-right:25px;}
+.header ul li.msg a{background:url(http://style.org.hc360.com/images/my/images/corcenter/busindependent/pic-global.png) no-repeat -227px -236px;padding-right:20px;}
+.header ul li em{color:#dd504e;padding:0 8px;}
+.header a{color:#fff !important;display:inline-block;line-height:22px;}
+.header a.hc-logo{width:169px;height:47px;display:block;float:left;margin:17px 0 0 0;}
+.header h1{font:26px/1.5 "Î¢ÈíÑÅºÚ","ºÚÌå";color:#fff;margin:17px 0 0 20px;width:220px;float:left;}
+.header a:hover{color:#fff;}
+.sel_public{width:280px;float:left;border:1px solid #bfbfbf;padding-left:3px;position:relative;height:30px;line-height:30px;cursor:pointer;}
+.s_hover{border:1px solid #86b4f8;background:#f5f7fa;}
+.sel_public s{display:inline-block;width:21px;height:30px;background:url(http://style.org.hc360.com/images/my/images/corcenter/busindependent/pic-global.png) no-repeat -275px -274px;float:right;}
+.s_hover s{background-position:-275px -308px;}
+.sel_public ul{width:283px;border:1px solid #bfbfbf;position:absolute;z-index:101;max-height:120px;overflow:auto;background:#fff;left:-1px;top:30px;}
+.sel_public ul li{padding:0 5px !important;margin:0 !important;}
+.sel_public ul li:hover{background:#e5e5e5;}
+.s_hover ul{border:1px solid #86b4f8;}
+.layout{width:1190px;margin:0 auto;font-size:12px;}
+.layout-1000 .layout{width:1000px;}
+.layout-1000 .basisinfo .tipbar{display:block;}
+.layout-1000 .fiexdinfo{margin-left:255px;top:373px;}
+
+/*add by qtj*/
+.none{ display:none;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+input{ margin:0px;}
+.zoom{ zoom:1}
+ul,li{ list-style:none;}
